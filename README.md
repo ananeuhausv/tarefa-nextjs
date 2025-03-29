@@ -1,4 +1,4 @@
-#Desafio Next.JS proposto pela IN Junior - UFF
+# Desafio Next.JS proposto pela IN Junior - UFF
 
 Neste repostiório, a proposta foi desenvolver um e-commerce de livros em React, utilizando os conhecimentos adquiridos na especialização front-end do treinamento.
 
