@@ -1,0 +1,45 @@
+.box {
+    display: flex;
+    gap: 7.1875rem;
+}
+.background {
+    flex: 1; 
+    max-width: 50%; 
+    overflow: hidden;
+}
+
+.background img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+}
+
+.login {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+    padding: 2rem;
+}
+.login > img {
+    width: 120px;
+    height: 78px;
+    margin-bottom: 6rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.login > p {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #09093799;
+}
+.login > h2 {
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 43px;
+    color: #090937;
+    margin-bottom: 4rem;
+}
+
+
