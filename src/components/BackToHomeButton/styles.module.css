@@ -1,0 +1,19 @@
+.detailsButton {
+    align-items: center;
+    padding: 2rem 3.5rem;
+    margin-top: 1rem;
+}
+.detailsButton > button {
+    font-size: 1.2rem;
+    font-weight: 700;
+    line-height: 32px;
+    border: none;
+    background: none;
+    color: #090937;
+    cursor: pointer;
+}
+
+.detailsButton > button::before {
+    content: "<";
+    font-size: 1.5rem;
+}
