@@ -1,37 +1,15 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+#Desafio Next.JS proposto pela IN Junior - UFF
 
-## Getting Started
+Neste repostiório, a proposta foi desenvolver um e-commerce de livros em React, utilizando os conhecimentos adquiridos na especialização front-end do treinamento.
 
-First, run the development server:
+Este website possui quatro páginas, sendo elas: Página de Login, Página de Home, Página do Gênero Literário e Detalhes do Livro(Página individual).
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+A página de Login redireciona para a Home Page, ao clicar no botão de Login. Os campos de e-mail e senha possuem verificações (e-mail deve ser válido e senha deve ter mais de 6 caracteres, ambos não podem estar vazios).
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+A Home Page exibe os 4 primeiros livros de cada gênero presente no arquivo .json.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+O botão "Ver mais", na Home Page, leva para a página do Gênero Literário, em que são exibidos todos os livros de um gênero literário. A página do Gênero Literário possui um filtro de "Pesquisar por título" que permite ao usuário pesquisar um livro por seu título.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Tanto na Home Page, quanto na página do Gênero Literário, clicar no card de um livro leva o usuário para a página individual desse livro.
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-# tarefa-nextjs
+A página individual do livro exibe seu título, autor, sinopse e preço. O botão "< Detalhes do Livro" leva o usuário de volta para a Home Page.
