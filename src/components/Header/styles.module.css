@@ -1,0 +1,30 @@
+.box {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem 2.5rem;
+    align-items: center;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.box > button {
+    width: 3.75rem;
+    height: 2.5rem;
+    border: none;
+    background: none;
+    cursor: pointer;
+    margin-left: 1.2rem;
+}
+
+.secondaryButtons {
+    display: flex;
+    gap: .7rem;
+    margin-right: 1.5rem;
+}
+.secondaryButtons > button {
+    width: 3.125rem;
+    height: 3.125rem;
+    border-radius: 4px;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
