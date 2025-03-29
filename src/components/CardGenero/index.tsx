@@ -1,6 +1,5 @@
 'use client'
 
-import { useNavigate } from 'react-router-dom';
 import CardLivro from '@/components/CardLivro';
 import style from './styles.module.css';
 import { Livro } from '@/types/Livro';
