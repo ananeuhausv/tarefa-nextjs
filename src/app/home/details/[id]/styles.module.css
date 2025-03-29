@@ -1,0 +1,87 @@
+.detailsButton {
+    align-items: center;
+    padding: 2rem 3.5rem;
+    margin-top: 2rem;
+}
+.detailsButton > button {
+    font-size: 1.2rem;
+    font-weight: 700;
+    line-height: 32px;
+    border: none;
+    background: none;
+    color: #090937;
+    cursor: pointer;
+}
+
+.detailsButton > button::before {
+    content: "<";
+    font-size: 1.5rem;
+}
+
+.bookContainer {
+    display: flex;
+    gap: 3rem;
+    padding: 0 3.7rem;
+    margin-top: 2rem;
+}
+.bookCover { 
+    width: 420px; 
+    height: 570px;
+    padding: 60px; 
+    background-color: #F4F4FF; 
+    border: 1px solid #0909371A;
+    border-radius: 4px; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bookCover > img {
+    width: 300px;
+    height: 450px;
+    border-radius: 4px;
+    box-shadow: 0px 4px 8px 0px #6251DD33;
+}
+
+.bookInfoContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+    width: 62.5rem;
+}
+
+.bookInfo{
+    display: flex;
+    flex-direction: column;
+    gap: .8rem;
+}
+
+.bookInfo > h1{
+    font-size: 2.5rem;
+    font-weight: 600;
+    line-height: 55px;
+    color: #000;
+}
+
+.bookInfo > h3 {
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 43px;
+    color: #00000099;
+}
+
+.bookSynopsis > h3{
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 32px;
+    color: #090937;
+    margin: 1rem 0;
+}
+
+.bookSynopsis > p {
+    font-size: 1.25rem;
+    font-weight: 600;
+    line-height: 30px;
+    text-align: justify;
+    color: #09093799;
+}
