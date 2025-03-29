@@ -1,0 +1,7 @@
+.banner > img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2.5rem 3.7rem;
+    width: 100%;
+}
